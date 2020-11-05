@@ -172,7 +172,7 @@ def game():
             S.difference_update(set(coup for coup in S if (well,bad) != evaluation(coup,selected)))
     if tries == 11:
         print("lost, we had to find:",end=' ')
-        displyCache(cache)
+        displayCache(cache)
     else:
         print("He is strong, he found", end=' ')
         displayCache(cache)
